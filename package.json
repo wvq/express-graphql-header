@@ -1,6 +1,6 @@
 {
   "name": "express-graphql-header",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make graphiql send token from header 'Authorization' or pass json string to set header",
   "main": "index.js",
   "scripts": {

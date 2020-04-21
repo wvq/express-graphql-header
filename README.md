@@ -8,11 +8,11 @@ usage:
 ```javascript
 import express from "express"
 import graphqlHTTP from "express-graphql"
-import graphqlToken from "express-graphql-token"
+import graphqlHeader from "express-graphql-header"
 
 let app = express()
 // ...
-app.use(path, graphqlToken, graphqlHTTP(schema))
+app.use(path, graphqlHeader, graphqlHTTP(schema))
 // ...
 ```
 
